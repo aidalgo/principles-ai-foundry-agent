@@ -1,6 +1,6 @@
 # Principles Agent - Python Guide
 
-This README provides instructions on how to set up and run the Python version of the Principles Agent application, which creates a multi-agent system to answer questions about company principles in both English and Brazilian Portuguese.
+This README provides instructions on how to set up and run the Python version of the Principles Agent application. This sample demonstrates how to create and orchestrate multiple agents using Azure AI Foundry with Python, creating a multi-agent system to answer questions about company principles in both English and Brazilian Portuguese.
 
 ## Prerequisites
 
@@ -83,6 +83,17 @@ The Python implementation:
 4. Loads environment variables from a `.env` file
 5. Uploads principles documents to make them available to the agents via code interpreter tools
 6. Creates connected agent tools to enable the orchestrator to delegate to specialized agents
+
+## Azure AI Foundry Features Demonstrated
+
+This Python implementation showcases these Azure AI Foundry capabilities:
+
+- Using the Python SDK for Azure AI Projects to create and manage agents
+- Uploading files for use by AI agents
+- Creating specialized agents with code interpreter tools for different languages
+- Implementing agent-to-agent interactions via the orchestrator pattern
+- Managing agent threads and messages
+- Handling agent lifecycle from creation to deletion
 
 ## Troubleshooting
 

@@ -1,6 +1,6 @@
 # Principles Agent - C# Guide
 
-This README provides instructions on how to set up and run the C# version of the Principles Agent application, which creates a multi-agent system to answer questions about company principles in both English and Brazilian Portuguese.
+This README provides instructions on how to set up and run the C# version of the Principles Agent application. This sample demonstrates how to create and orchestrate multiple agents using Azure AI Foundry with C#, creating a multi-agent system to answer questions about company principles in both English and Brazilian Portuguese.
 
 ## Prerequisites
 
@@ -91,6 +91,17 @@ The C# implementation:
 4. Creates agents that include the principles text directly in their instructions
 5. Sets up connected agent tools to allow the orchestrator to delegate to specialized agents
 6. Demonstrates how to create and manage agent threads and runs
+
+## Azure AI Foundry Features Demonstrated
+
+This C# implementation showcases these Azure AI Foundry capabilities:
+
+- Using the .NET SDK for Azure AI Agents to create and manage agents
+- Integrating agents with standard .NET configuration patterns
+- Creating specialized agents with domain-specific knowledge
+- Implementing orchestrator patterns for cross-agent coordination
+- Managing agent state through threads and runs
+- Handling async operations with agent processing
 
 ## Troubleshooting
 

@@ -1,6 +1,6 @@
 # Principles Agent Application
 
-This is the main repository for the Principles Agent application, a multi-agent system designed to answer questions about company principles in both English and Brazilian Portuguese.
+This is a sample repository demonstrating how to create and orchestrate multiple agents using Azure AI Foundry. The Principles Agent application is a multi-agent system designed to answer questions about company principles in both English and Brazilian Portuguese, showcasing practical patterns for building multi-agent systems with Azure AI services.
 
 ## Available Implementations
 
@@ -23,6 +23,18 @@ Both implementations create a multi-agent system with:
 - An orchestrator agent to route questions based on language
 
 The implementations differ in their specific libraries and approaches but achieve the same functionality of demonstrating multi-agent architectures in Azure AI.
+
+## Azure AI Foundry
+
+This sample showcases Azure AI Foundry capabilities including:
+
+- Creating specialized agents with specific roles and knowledge domains
+- Implementing orchestration patterns between multiple agents
+- Managing agent communication patterns
+- Working with multilingual content
+- Handling agent life cycle (creation, usage, and cleanup)
+
+These patterns can be adapted for various business applications where complex decision making across multiple domains is required.
 
 ## Prerequisites for All Implementations
 
