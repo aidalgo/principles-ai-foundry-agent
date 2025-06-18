@@ -1,0 +1,5 @@
+# Core dependencies for principles-agent
+python-dotenv
+azure-ai-projects
+azure-identity
+pathlib
